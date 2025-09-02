@@ -1,7 +1,10 @@
+import Homepage from './Pages/Homepage.jsx'
 
 function Window() {
     return (
-        <p>dauwt</p>
+        <>
+            <Homepage />
+        </>
     );
 }
 
