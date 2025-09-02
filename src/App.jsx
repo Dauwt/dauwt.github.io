@@ -4,9 +4,10 @@ import './App.css'
 
 function App() {
   return (
-    <>
-      <Window/>
-    </>
+    <div>
+      <h1>Dauwt</h1>
+      <Window />
+    </div>
   )
 }
 
