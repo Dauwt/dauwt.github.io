@@ -1,9 +1,13 @@
 import '../App.css'
+import TypingText from '../TypingText';
 
 function Homepage() {
     return (
         <div className="window">
-            <h1 className="welcome-header">Welcome to my site</h1>
+            <div className='welcome-header'>
+                <h1 className="welcome-header-1">Welcome to</h1>
+                <TypingText text="Projects by Dauwt" speed={100} />
+            </div>
             <p>dauwt</p>
         </div>
     );

@@ -145,13 +145,30 @@ body {
     overflow-y: auto;
 }   
 
-
 .welcome-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    width: 100%;
+}
+
+.welcome-header-1 {
     font-family: 'Roboto';
     color: white;
     font-size: 10vh;
-    max-width: 20vw;
+    max-width: 40vw;
     display: flex;
     align-items: center;
     margin: 0;
+}
+
+.welcome-header-2 {
+    font-family: 'Space Grotesk';
+    color: white;
+    font-size: 10vh;
+    margin: 0;
+    color: #d7da2f;
+    white-space: nowrap;
+    overflow: hidden;
 }
