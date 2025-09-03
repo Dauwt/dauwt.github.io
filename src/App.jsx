@@ -7,7 +7,6 @@ import './App.css'
 function App() {
   return (
     <div>
-      <Sidebar />
       <Header headerTitle="Projects by Dauwt"/>
       <Window />
     </div>

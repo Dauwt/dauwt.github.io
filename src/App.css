@@ -60,7 +60,7 @@ body {
 
 .header-pages-button {
     color: #8d8e99;
-    font-size: 98%;
+    font-size: 2vh;
     font-family: 'Space Grotesk';
     display: flex;
     align-items: center;
@@ -81,7 +81,7 @@ body {
 
 .header-pages-separator {
     color: #8d8e99;
-    font-size: 98%;
+    font-size: 2vh;
     font-family: 'Space Grotesk';
     cursor: default;
 }
@@ -140,9 +140,12 @@ body {
 .window {
     flex: 1;
     margin-top: 4vh;
-    margin-left: 5vw;
     padding: 15px;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }   
 
 .welcome-header {
@@ -171,4 +174,34 @@ body {
     color: #d7da2f;
     white-space: nowrap;
     overflow: hidden;
+}
+
+.news {
+    width: 100vh;
+    height: 60vh;
+    margin-top: 7vh;
+    border: 1px solid white;
+    border-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-header {
+    width: 100%;
+    height: 5vh;
+    background-color: #1f2b38;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 2.5vh;
+    border-top-right-radius: 2.5vh;
+}
+
+.news-header-title {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 2.5vh;
+    font-weight: 200;
+    padding-left: 2.5vh;
 }

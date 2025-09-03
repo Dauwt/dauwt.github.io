@@ -8,7 +8,11 @@ function Homepage() {
                 <h1 className="welcome-header-1">Welcome to</h1>
                 <TypingText text="Projects by Dauwt" speed={100} />
             </div>
-            <p>dauwt</p>
+            <div className="news">
+                <div className="news-header">
+                    <span className='news-header-title'>New stuff</span>
+                </div>
+            </div>
         </div>
     );
 }
