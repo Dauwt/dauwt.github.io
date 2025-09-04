@@ -14,9 +14,9 @@ function Header(props) {
                 <div className="header-pages-separator">|</div>
                 <a href="/projects" className="header-pages-button">Projects</a>
                 <div className="header-pages-separator">|</div>
-                <a href="/" className="header-pages-button">3D Models</a>
+                <a href="/3d-models" className="header-pages-button">3D Models</a>
                 <div className="header-pages-separator">|</div>
-                <a href="/" className="header-pages-button">About me</a>
+                <a href="/about-me" className="header-pages-button">About me</a>
             </div>
             <div className="header-social">
                 <a href="https://github.com/dauwt" target="_blank" rel="noopener noreferrer">
