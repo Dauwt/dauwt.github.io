@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { HashRouter, Link } from "react-router-dom";
 import './App.css'
 
 function Header(props) {
@@ -10,13 +11,13 @@ function Header(props) {
             </div>
 
             <div className="header-pages">
-                <a href="/" className="header-pages-button">Home</a>
+                <Link to="/" className="header-pages-button">Home</Link>
                 <div className="header-pages-separator">|</div>
-                <a href="/projects" className="header-pages-button">Projects</a>
+                <Link to="/projects" className="header-pages-button">Projects</Link>
                 <div className="header-pages-separator">|</div>
-                <a href="/3d-models" className="header-pages-button">3D Models</a>
+                <Link to="/3d-models" className="header-pages-button">3D Models</Link>
                 <div className="header-pages-separator">|</div>
-                <a href="/about-me" className="header-pages-button">About me</a>
+                <Link to="/about-me" className="header-pages-button">About Me</Link>
             </div>
             <div className="header-social">
                 <a href="https://github.com/dauwt" target="_blank" rel="noopener noreferrer">
