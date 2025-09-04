@@ -5,12 +5,14 @@ import TypingText from '../TypingText';
 function Homepage() {
     return (
         <div className="window">
-            <div className='welcome-header'>
-                <h1 className="welcome-header-1">Welcome to</h1>
-                <TypingText text="Projects by Dauwt" speed={100} />
-            </div>
+            <div className="window-homepage">
+                <div className='welcome-header'>
+                    <h1 className="welcome-header-1">Welcome to</h1>
+                    <TypingText text="Projects by Dauwt" speed={100} />
+                </div>
 
-            <ProjectCarousel />
+                <ProjectCarousel />
+            </div>
         </div>
     );
 }
