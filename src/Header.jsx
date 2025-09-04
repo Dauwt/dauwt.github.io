@@ -10,13 +10,13 @@ function Header(props) {
             </div>
 
             <div className="header-pages">
-                <button className="header-pages-button">Home</button>
+                <a href="/" className="header-pages-button">Home</a>
                 <div className="header-pages-separator">|</div>
-                <button className="header-pages-button">Projects</button>
+                <a href="/projects" className="header-pages-button">Projects</a>
                 <div className="header-pages-separator">|</div>
-                <button className="header-pages-button">3D Models</button>
+                <a href="/" className="header-pages-button">3D Models</a>
                 <div className="header-pages-separator">|</div>
-                <button className="header-pages-button">About Me</button>
+                <a href="/" className="header-pages-button">About me</a>
             </div>
             <div className="header-social">
                 <a href="https://github.com/dauwt" target="_blank" rel="noopener noreferrer">

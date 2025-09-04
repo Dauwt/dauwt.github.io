@@ -6,7 +6,7 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div className='main'>
       <Header headerTitle="Projects by Dauwt"/>
       <Window />
     </div>

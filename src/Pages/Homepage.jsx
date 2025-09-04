@@ -21,6 +21,8 @@ const projects = [
   { title: "3D Printed Organizer", description: "CAD & 3D printing" },
   { title: "Self Driven Robot", description: "ESP32" },
   { title: "ESP32 PCB", description: "KiCAD" },
+  { title: "Robot", description: "KiCAD" },
+  { title: "3D Printingt", description: "KiCAD" },
 ];
 
 function ProjectCarousel({ interval = 3000 }) {
