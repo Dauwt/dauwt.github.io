@@ -22,18 +22,59 @@ function Models3D() {
                                 <div className="models3d-card-about-title">Pencil/Tool Case V2 - Print in Place</div>
                                 <div className="models3d-card-about-description">A Strong, spacious, cool looking, Print in Place Pencil Case!</div>
                             </div>
+                            <div className="models3d-card-buttons">
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Download</button>
+                                </div>
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                         <div className="models3d-card">
                             <img src="https://placehold.co/250x155" alt="Placeholder image" className="models3d-card-image" />
-                            <div className="models3d-card-about"></div>
+                            <div className="models3d-card-about">
+                                <div className="models3d-card-about-title">Pencil/Tool Case V2 - Print in Place</div>
+                                <div className="models3d-card-about-description">A Strong, spacious, cool looking, Print in Place Pencil Case!</div>
+                            </div>
+                            <div className="models3d-card-buttons">
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Download</button>
+                                </div>
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                         <div className="models3d-card">
                             <img src="https://placehold.co/250x155" alt="Placeholder image" className="models3d-card-image" />
-                            <div className="models3d-card-about"></div>
+                            <div className="models3d-card-about">
+                                <div className="models3d-card-about-title">Pencil/Tool Case V2 - Print in Place</div>
+                                <div className="models3d-card-about-description">A Strong, spacious, cool looking, Print in Place Pencil Case!</div>
+                            </div>
+                            <div className="models3d-card-buttons">
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Download</button>
+                                </div>
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                         <div className="models3d-card">
                             <img src="https://placehold.co/250x155" alt="Placeholder image" className="models3d-card-image" />
-                            <div className="models3d-card-about"></div>
+                            <div className="models3d-card-about">
+                                <div className="models3d-card-about-title">Pencil/Tool Case V2 - Print in Place</div>
+                                <div className="models3d-card-about-description">A Strong, spacious, cool looking, Print in Place Pencil Case!</div>
+                            </div>
+                            <div className="models3d-card-buttons">
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Download</button>
+                                </div>
+                                <div className="models3d-card-button-div">
+                                    <button className="models3d-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
