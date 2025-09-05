@@ -22,18 +22,59 @@ function Projects() {
                                 <div className="projects-card-about-title">ESP32 PCB - DWT32</div>
                                 <div className="projects-card-about-description">I designed with Kicad a ESP32-WROOM-32E PCB from scratch!</div>
                             </div>
+                            <div className="projects-card-buttons">
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Repository</button>
+                                </div>
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                         <div className="projects-card">
                             <img src="https://placehold.co/250x155" alt="Placeholder image" className="projects-card-image" />
-                            <div className="projects-card-about"></div>
+                            <div className="projects-card-about">
+                                <div className="projects-card-about-title">ESP32 PCB - DWT32</div>
+                                <div className="projects-card-about-description">I designed with Kicad a ESP32-WROOM-32E PCB from scratch!</div>
+                            </div>
+                            <div className="projects-card-buttons">
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Repository</button>
+                                </div>
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                         <div className="projects-card">
                             <img src="https://placehold.co/250x155" alt="Placeholder image" className="projects-card-image" />
-                            <div className="projects-card-about"></div>
+                            <div className="projects-card-about">
+                                <div className="projects-card-about-title">ESP32 PCB - DWT32</div>
+                                <div className="projects-card-about-description">I designed with Kicad a ESP32-WROOM-32E PCB from scratch!</div>
+                            </div>
+                            <div className="projects-card-buttons">
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Repository</button>
+                                </div>
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                         <div className="projects-card">
                             <img src="https://placehold.co/250x155" alt="Placeholder image" className="projects-card-image" />
-                            <div className="projects-card-about"></div>
+                            <div className="projects-card-about">
+                                <div className="projects-card-about-title">ESP32 PCB - DWT32</div>
+                                <div className="projects-card-about-description">I designed with Kicad a ESP32-WROOM-32E PCB from scratch!</div>
+                            </div>
+                            <div className="projects-card-buttons">
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Repository</button>
+                                </div>
+                                <div className="projects-card-button-div">
+                                    <button className="projects-card-button">Visit</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
