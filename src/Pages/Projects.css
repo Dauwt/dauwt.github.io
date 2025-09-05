@@ -66,12 +66,32 @@
 
 .projects-carousel-card.active {
     transform: translateX(0);
+    transform: scale(1.1);
     transition: transform 1.5s ease;
 }
 
 .projects-carousel-card.none {
     opacity: 0;
     transform: translateX(calc(100vw + 80%));
+}
+
+.projects-carousel-card-header {
+    width: 100%;
+    height: 5vh;
+    background-color: #1f2b38;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 2.5vh;
+    border-top-right-radius: 2.5vh;
+}
+
+.projects-carousel-card-header-title {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 2.5vh;
+    font-weight: 200;
+    padding-left: 2.5vh;
 }
 
 .projects-cards {
@@ -110,7 +130,7 @@
 
 .projects-card {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     margin-bottom: 4vh;
     background-color: #1b1f24;
     border-radius: 2.5vh;
@@ -119,7 +139,8 @@
 }
 
 .projects-card-image {
-    height: 100%;
+    width: 35vh;
+    object-fit: cover;
     border-top-left-radius: 2.5vh;
     border-bottom-left-radius: 2.5vh;
     border-right: 2px #616974 solid;
@@ -128,8 +149,31 @@
 }
 
 .projects-card-about {
-    flex: 1;
+    flex: 1 1 auto;
     height: 100%;
     border-top-right-radius: 2.5vh;
     border-bottom-right-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.projects-card-about-title {
+    width: 100%;
+    height: 8vh;
+    line-height: 8vh;
+    font-family: 'Space Grotesk';
+    font-size: 6vh;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.projects-card-about-description {
+    flex: 1;
+    max-height: 17vh;
+    font-family: 'Space Grotesk';
+    font-size: 3.25vh;
+    overflow: hidden;
+    margin-top: 2vh;
 }

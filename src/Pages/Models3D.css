@@ -1,0 +1,179 @@
+.window-models3d {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.models3d-header {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.models3d-header-title {
+    padding-left: 1.5vw;
+    font-family: 'Space Grotesk';
+    font-size: 6vh;
+}
+
+.models3d-main {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.models3d-carousel {
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.models3d-carousel-card {
+    position: absolute;
+    top: 2.5vh;
+    width: 75vh;
+    height: 40vh;
+    border: 1px solid white;
+    border-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+}
+
+.models3d-carousel-card.left {
+    transform: translateX(calc(-50vw - 40%));
+    transition: transform 1.5s ease;
+}
+
+.models3d-carousel-card.outLeft {
+    transform: translateX(calc(-100vw - 80%));
+    transition: transform 1.5s ease;
+}
+
+.models3d-carousel-card.right {
+    transform: translateX(calc(50vw + 40%));
+    transition: transform 1.5s ease;
+}
+
+.models3d-carousel-card.active {
+    transform: translateX(0);
+    transform: scale(1.1);
+    transition: transform 1.5s ease;
+}
+
+.models3d-carousel-card.none {
+    opacity: 0;
+    transform: translateX(calc(100vw + 80%));
+}
+
+.models3d-carousel-card-header {
+    width: 100%;
+    height: 5vh;
+    background-color: #1f2b38;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 2.5vh;
+    border-top-right-radius: 2.5vh;
+}
+
+.models3d-carousel-card-header-title {
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 2.5vh;
+    font-weight: 200;
+    padding-left: 2.5vh;
+}
+
+.models3d-cards {
+    width: 100%;
+    height: fit-content;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.models3d-cards-separator {
+    width: 100%;
+    height: 3.5vh;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.models3d-cards-separator-text {
+    font-family: 'Space Grotesk';
+    font-size: 3.5vh;
+    font-weight: 300;
+    color: white;
+    margin-left: 2vw;
+    margin-right: 4vw;
+}
+
+.models3d-cards-separator-border {
+    flex: 1;
+    height: 2px;
+    background-color: #8d8e99;
+}
+
+.models3d-card {
+    width: 100%;
+    height: 25vh;
+    margin-bottom: 4vh;
+    background-color: #1b1f24;
+    border-radius: 2.5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.models3d-card-image {
+    width: 35vh;
+    object-fit: cover;
+    border-top-left-radius: 2.5vh;
+    border-bottom-left-radius: 2.5vh;
+    border-right: 2px #616974 solid;
+    padding-right: 0.8vw;
+    margin-right: 0.8vw;
+}
+
+.models3d-card-about {
+    flex: 1 1 auto;
+    height: 100%;
+    border-top-right-radius: 2.5vh;
+    border-bottom-right-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.models3d-card-about-title {
+    width: 100%;
+    height: 8vh;
+    line-height: 8vh;
+    font-family: 'Space Grotesk';
+    font-size: 6vh;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.models3d-card-about-description {
+    flex: 1;
+    max-height: 17vh;
+    font-family: 'Space Grotesk';
+    font-size: 3.25vh;
+    overflow: hidden;
+    margin-top: 2vh;
+}

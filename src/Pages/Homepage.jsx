@@ -24,7 +24,7 @@ const projects = [
   { title: "Self Driven Robot", description: "ESP32" },
   { title: "ESP32 PCB", description: "KiCAD" },
   { title: "Robot", description: "KiCAD" },
-  { title: "3D Printingt", description: "KiCAD" },
+  { title: "3D Printing", description: "KiCAD" },
 ];
 
 function ProjectCarousel({ interval = 3000 }) {
